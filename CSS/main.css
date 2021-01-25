@@ -261,6 +261,10 @@ input[type=submit]:hover {
   	flex-direction: column;
   	justify-content: center;
   }
+  .cv{
+  	display: flex;
+  	flex-direction: column;
+  }
   .cv img{
   	width:100%;
   }

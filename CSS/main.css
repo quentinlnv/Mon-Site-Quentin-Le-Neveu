@@ -1,0 +1,268 @@
+
+
+/*Typo*/
+body, h2, h4, h6 {
+  font-family: Arial, Helvetica, Arial, sans-serif;
+  margin-left: 178px;
+}
+body {
+  background-color: #E5E5E5;
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+h1{
+	color: white;
+	margin-bottom: 50px;
+	margin-left: 8px;
+}
+h2{
+	margin-left:0px;
+	margin-bottom: 20px
+}
+div{
+	align-items:space-between;
+}
+.header{
+	display:flex;
+	margin-bottom: 50px;
+	margin-left:-10px;
+	background-color:#FFF;
+}
+.titre{
+	flex:1;
+}
+a{
+	font-weight: 400; 
+	color:black;
+}
+.logo{
+	background-color: white;
+}
+/*Barre de navigation*/
+
+.navbar{
+	justify-content:flex-end;
+}
+.navbar-principale{
+	list-style-type:none;
+}
+.nav-item{
+	margin-right:5px;
+	float:left;
+}
+ul li a{
+	display:block;
+	float:left;
+	background-color:white;
+	width: 150px;
+	padding: 1px;
+	border: 2px solid;
+	border-color: #FCA311;
+	font-size: 0.8em;
+}
+.nav-link{
+	text-decoration: none;
+	color: black;
+	font-size: 0.8em;
+	padding: 3px;
+	margin-left: 3px;
+}
+#search{
+	color:#14213D;
+	border:#14213D solid 1px;
+}
+#search:hover{
+	background-color:#14213D;
+	color:white;
+}
+
+.form-control me-2:hover {
+	color:#000;
+}
+/*Navigation verticale*/
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 168px; /* Set the width of the sidebar */
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #14213D; 
+  overflow-x: hidden; 
+  padding-top: 20px;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFF;
+  display: block;
+}
+.sidenav a:hover {
+  color: #FCA311;
+}
+
+/*Introduction au blog*/
+.intro{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.intro p{
+	width: 64%;
+	font-size: 1.2em;
+	margin-right:4px;
+}
+.intro img{
+	width: 42%;
+}
+
+/*Contenu principal*/
+.contenu{
+	display:flex;
+	margin-bottom: 20px;
+}
+.contenu p{
+	float:right;
+	width: 40%;
+	font-size: 1.2em;
+	margin-right: 5%;
+}
+.contenu img{
+	width: 50%;
+	margin-left: 5%;
+	justify-content: flex-end;
+}
+.histoire{
+	margin-bottom: 50px;
+}
+.histoire p{
+	font-size: 1.2em;
+	margin-right: 5px;
+}
+.container{
+	width:90%;
+}
+.dark-mode{
+	padding:5px;
+	background-color:black;
+	color:white;
+}
+/*Formulaire de contact*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: -10px
+} 
+.card-container{
+	display:flex;	
+	justify-content: space-around;
+}
+.card{
+	float:left;
+	height:240px;
+	margin-bottom:50px;
+	background-color:#14213D;
+	color:#FFF;
+	border-radius: 25px;
+}
+#btn-card{
+	margin-left: 74px;
+	background-color:#FCA311;
+	border: none;
+
+}
+.id{
+	display:flex;
+	justify-content: space-around;
+	margin-bottom:50px;
+}
+.id img{
+	width:100%;
+	float:left;
+}
+.présentation{
+	font-size:1.2em;
+	justify-content: space-between;
+	list-style-type: none
+}
+.présentation i{
+	width:5px;
+	height:5px;
+	padding:10px;
+	border-radius: 2px solid
+	border-color:black;
+	margin-right:16px;
+	justify-content: space-between;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 600px) {
+ header{
+ 	display:flex;
+ 	flex-direction:column;
+ }
+ 	.nav-item{
+ 		justify-content:flex-end;
+ 	}
+ 	.navbar-toggler{
+ 		justify-content:flex-end;
+ 		margin-right: -30px;
+ 	}
+
+ body {
+    display:flex;
+	flex-direction:column;
+	margin-left: 10px;
+	justify-content: center;
+}
+  .intro, .contenu, .histoire{
+  	flex-direction:column;
+  }
+  .intro img, .contenu img, .histoire img{
+  	width:100%;
+  }
+  .intro p, .contenu p, .histoire p{
+  	width:100%;
+  	font-size:1em;
+  }
+
+  .sidenav{
+  	display:none;
+  }
+  .Dark-mode{
+  	display:none;
+ }

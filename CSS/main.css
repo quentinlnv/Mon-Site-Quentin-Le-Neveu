@@ -259,8 +259,14 @@ input[type=submit]:hover {
   }
   .card-container{
   	flex-direction: column;
+  	justify-content: center;
   }
-
+  .cv img{
+  	width:100%;
+  }
+  .cv ul{
+  	width:100%;
+  }
   .sidenav{
   	display:none;
   }

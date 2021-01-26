@@ -265,10 +265,12 @@ input[type=submit]:hover {
   }
   .cv img{
   	width:100%;
+  	float:none;
   }
   .je-suis{
   	width:100%;
   	font-size:1em;
+  	float:none;
   }
   .sidenav{
   	display:none;

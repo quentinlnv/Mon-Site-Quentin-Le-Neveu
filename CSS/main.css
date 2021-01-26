@@ -230,14 +230,15 @@ input[type=submit]:hover {
  header{
  	display:flex;
  	flex-direction:column;
+ 	justify-content: space-between;
  }
  	.nav-item{
  		justify-content:flex-end;
  	}
  	.navbar-toggler{
  		justify-content:flex-end;
- 		margin-right: -30px;
  	}
+
 
  body {
     display:flex;
@@ -279,3 +280,4 @@ input[type=submit]:hover {
   .Dark-mode{
   	display:none;
  }
+}

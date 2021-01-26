@@ -209,12 +209,12 @@ input[type=submit]:hover {
 	width:110%;
 	float:left;
 }
-.présentation{
+.cv ul{
 	font-size:1.2em;
 	justify-content: space-between;
 	list-style-type: none
 }
-.présentation i{
+.cv ul i{
 	width:5px;
 	height:5px;
 	padding:10px;
@@ -259,15 +259,15 @@ input[type=submit]:hover {
   	flex-direction: column;
   	justify-content: center;
   }
-  .cv{
+  .id{
   	display: flex;
   	flex-direction: column;
   }
-  .cv img{
+  .id img{
   	width:100%;
   	float:none;
   }
-  .je-suis{
+  .id ul li p{
   	width:100%;
   	font-size:1em;
   	float:none;

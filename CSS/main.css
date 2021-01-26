@@ -264,7 +264,8 @@ input[type=submit]:hover {
   	flex-direction: column;
   }
   .id img{
-  	width:100%;
+  	width:95%;
+  	justify-content: center;
   	float:none;
   }
   .id ul li p{

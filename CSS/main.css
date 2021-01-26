@@ -263,11 +263,12 @@ input[type=submit]:hover {
   	display: flex;
   	flex-direction: column;
   }
-  .id img{
+  .cv img{
   	width:100%;
   }
   .présentation{
   	width:100%;
+  	font-size:1em;
   }
   .sidenav{
   	display:none;

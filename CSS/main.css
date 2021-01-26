@@ -177,11 +177,12 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 .Submit-form{
-	background-color:#FFF;
+	background-color:#14213D;
 	border:#14213D solid 1px;
+	color:#FFF;
 }
 .Submit-form:hover{
-	background-color:#14213D;
+	background-color:#0f192e;
 	color:#FFF;
 }
 /* Add a background color and some padding around the form */
@@ -283,4 +284,3 @@ input[type=submit]:hover {
   .Dark-mode{
   	display:none;
  }
- 

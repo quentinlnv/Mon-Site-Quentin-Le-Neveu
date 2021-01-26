@@ -263,7 +263,7 @@ input[type=submit]:hover {
   	display: flex;
   	flex-direction: column;
   }
-  #id img{
+  .photo-id{
   	width:100%;
   }
   .présentation{

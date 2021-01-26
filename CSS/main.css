@@ -176,7 +176,14 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
-
+.Submit-form{
+	background-color:#FFF;
+	border:#14213D solid 1px;
+}
+.Submit-form:hover{
+	background-color:#14213D;
+	color:#FFF;
+}
 /* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
@@ -200,7 +207,6 @@ input[type=submit]:hover {
 	margin-left: 74px;
 	background-color:#FCA311;
 	border: none;
-
 }
 .id{
 	display:flex;

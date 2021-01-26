@@ -259,11 +259,11 @@ input[type=submit]:hover {
   	flex-direction: column;
   	justify-content: center;
   }
-  #id{
+  .cv{
   	display: flex;
   	flex-direction: column;
   }
-  .photo-id{
+  .id img{
   	width:100%;
   }
   .présentation{

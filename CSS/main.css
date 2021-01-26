@@ -259,14 +259,14 @@ input[type=submit]:hover {
   	flex-direction: column;
   	justify-content: center;
   }
-  .cv{
+  #id{
   	display: flex;
   	flex-direction: column;
   }
-  .cv img{
+  #id img{
   	width:100%;
   }
-  .cv ul{
+  #id ul{
   	width:100%;
   }
   .sidenav{

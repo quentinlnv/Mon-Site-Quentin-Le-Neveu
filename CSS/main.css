@@ -147,10 +147,9 @@ ul li a{
 }
 .Lakers{
 	display:flex;
-	justify-content:center;
 }
 .Lakers-logo{
-	width:100%;
+	justify-content: center;
 }
 /*Formulaire de contact*/
 input[type=text], select, textarea {

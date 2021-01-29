@@ -7,6 +7,9 @@ body {
   background-color: #E5E5E5;
   color: black;
 }
+p{
+	font-size:1.2em;
+}
 
 .dark-mode {
   background-color: black;
@@ -151,7 +154,7 @@ ul li a{
 .Lakers-logo{
 	justify-content: center;
 }
-.palmarès{
+.palmarès ul{
 	list-style-type: none;
 }
 .palmarès li{

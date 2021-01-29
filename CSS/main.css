@@ -162,6 +162,7 @@ ul li a{
 }
 .video-lakers{
 	justify-content: center;
+	width:80%;
 }
 /*Formulaire de contact*/
 input[type=text], select, textarea {

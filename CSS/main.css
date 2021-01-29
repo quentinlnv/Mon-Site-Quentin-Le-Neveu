@@ -151,6 +151,12 @@ ul li a{
 .Lakers-logo{
 	justify-content: center;
 }
+.palmarès ul{
+	list-style-type: none;
+}
+.palmarès li{
+	font-size: 1.2em;
+}
 /*Formulaire de contact*/
 input[type=text], select, textarea {
   width: 100%;

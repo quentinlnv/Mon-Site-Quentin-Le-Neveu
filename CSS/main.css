@@ -160,6 +160,9 @@ ul li a{
 .palmarès li{
 	font-size: 1.2em;
 }
+.video-lakers{
+	justify-content: center;
+}
 /*Formulaire de contact*/
 input[type=text], select, textarea {
   width: 100%;

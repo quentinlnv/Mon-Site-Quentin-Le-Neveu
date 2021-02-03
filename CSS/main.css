@@ -158,7 +158,7 @@ ul li a{
 .palmarès li{
 	font-size: 1.2em;
 }
-#container{
+.container{
 	justify-content: center;
 }
 /*Formulaire de contact*/

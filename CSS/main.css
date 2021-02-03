@@ -149,6 +149,9 @@ ul li a{
 	width:90%;
 	justify-content: center;
 }
+.Lakers{
+	display: flex;
+}
 .Lakers-logo{
 	display:flex;
 }

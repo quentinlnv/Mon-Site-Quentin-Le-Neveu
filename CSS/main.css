@@ -153,9 +153,6 @@ ul li a{
 	display: flex;
 }
 .Lakers-logo{
-	display:flex;
-}
-.Lakers-logo{
 	justify-content: center;
 }
 .palmarès ul{
@@ -163,9 +160,6 @@ ul li a{
 }
 .palmarès li{
 	font-size: 1.2em;
-}
-.champions{
-	display:flex;
 }
 #container{
 	justify-content: center;

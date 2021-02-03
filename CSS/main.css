@@ -152,9 +152,6 @@ ul li a{
 .Lakers{
 	display: flex;
 }
-.Lakers-logo{
-	justify-content: center;
-}
 .palmarès ul{
 	list-style-type: none;
 }

@@ -152,6 +152,13 @@ ul li a{
 .Lakers{
 	display: flex;
 }
+.Lakers-logo{
+	justify-content: center;
+	width: 75%;
+}
+.pres-lakers{
+
+}
 .palmarès{
 	list-style-type: none;
 }

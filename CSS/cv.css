@@ -11,10 +11,6 @@ p{
 	font-size:1.2em;
 }
 
-.dark-mode {
-  background-color: black;
-  color: white;
-}
 h1{
 	color: white;
 	margin-bottom: 50px;
@@ -195,7 +191,7 @@ ul li a{
   	flex-direction: column;
   }
   .id img{
-  	width:95%;
+  	width:80%;
   	justify-content: center;
   	float:none;
   }
@@ -207,7 +203,4 @@ ul li a{
   .sidenav{
   	display:none;
   }
-  .Dark-mode{
-  	display:none;
- }
 }

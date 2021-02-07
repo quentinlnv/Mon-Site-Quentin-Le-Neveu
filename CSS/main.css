@@ -168,17 +168,6 @@ ul li a{
 	max-width: 100%;
 	overflow-x: hidden;
 }
-  .intro, .contenu, .histoire{
-  	flex-direction:column;
-  }
-  .intro img, .contenu img, .histoire img{
-  	width:100%;
-  	justify-content: center;
-  }
-  .intro p, .contenu p, .histoire p{
-  	width:100%;
-  	font-size:1em;
-  }
   .card-container{
   	flex-direction: column;
   	justify-content: center;

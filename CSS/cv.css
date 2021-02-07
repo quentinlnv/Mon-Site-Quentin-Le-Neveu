@@ -1,4 +1,111 @@
 /*DOCTYPE CSS*/
+body, h2, h4, h6 {
+  font-family: Arial, Helvetica, Arial, sans-serif;
+  margin-left: 178px;
+}
+body {
+  background-color: #E5E5E5;
+  color: black;
+}
+p{
+	font-size:1.2em;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+h1{
+	color: white;
+	margin-bottom: 50px;
+	margin-left: 8px;
+}
+h2{
+	margin-left:0px;
+	margin-bottom: 20px
+}
+div{
+	align-items:space-between;
+}
+.header{
+	display:flex;
+	margin-bottom: 50px;
+	margin-left:-10px;
+	background-color:#FFF;
+}
+.titre{
+	flex:1;
+}
+a{
+	font-weight: 400; 
+	color:black;
+}
+.logo{
+	background-color: white;
+}
+/*Barre de navigation*/
+
+.navbar{
+	justify-content:flex-end;
+}
+.navbar-principale{
+	list-style-type:none;
+}
+.nav-item{
+	margin-right:5px;
+	float:left;
+}
+ul li a{
+	display:block;
+	float:left;
+	background-color:white;
+	width: 150px;
+	padding: 1px;
+	border: 2px solid;
+	border-color: #FCA311;
+	font-size: 0.8em;
+}
+.nav-link{
+	text-decoration: none;
+	color: black;
+	font-size: 0.8em;
+	padding: 3px;
+	margin-left: 3px;
+}
+#search{
+	color:#14213D;
+	border:#14213D solid 1px;
+}
+#search:hover{
+	background-color:#14213D;
+	color:white;
+}
+
+.form-control me-2:hover {
+	color:#000;
+}
+/*Navigation verticale*/
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 168px; /* Set the width of the sidebar */
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #14213D; 
+  overflow-x: hidden; 
+  padding-top: 20px;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFF;
+  display: block;
+}
+.sidenav a:hover {
+  color: #FCA311;
+}
 .card-container{
 	display:flex;	
 	justify-content: space-around;
@@ -41,4 +148,61 @@
 	border-color:black;
 	margin-right:16px;
 	justify-content: space-between;
+}
+@media screen and (max-width: 600px) {
+ header{
+ 	display:flex;
+ 	flex-direction:column;
+ 	justify-content: space-between;
+ }
+ 	.nav-item{
+ 		justify-content:flex-end;
+ 	}
+ 	.navbar-toggler{
+ 		justify-content:flex-end;
+ 	}
+
+ body {
+    display:flex;
+	flex-direction:column;
+	margin-left: 10px;
+	justify-content: center;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+  .intro, .contenu, .histoire{
+  	flex-direction:column;
+  }
+  .intro img, .contenu img, .histoire img{
+  	width:100%;
+  	justify-content: center;
+  }
+  .intro p, .contenu p, .histoire p{
+  	width:100%;
+  	font-size:1em;
+  }
+  .card-container{
+  	flex-direction: column;
+  	justify-content: center;
+  }
+  .id{
+  	display: flex;
+  	flex-direction: column;
+  }
+  .id img{
+  	width:95%;
+  	justify-content: center;
+  	float:none;
+  }
+  .id ul li p{
+  	width:100%;
+  	font-size:1em;
+  	float:none;
+  }
+  .sidenav{
+  	display:none;
+  }
+  .Dark-mode{
+  	display:none;
+ }
 }

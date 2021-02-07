@@ -169,6 +169,9 @@ input[type=submit]:hover {
   	flex-direction: column;
   	justify-content: center;
   }
+  .card{
+  	justify-content: center;
+  }
   .id{
   	display: flex;
   	flex-direction: column;

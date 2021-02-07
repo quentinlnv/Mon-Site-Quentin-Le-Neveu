@@ -128,17 +128,18 @@ ul li a{
 }
 .id{
 	display:flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	margin-bottom:50px;
 }
 .id img{
-	width:110%;
+	width:33%;
 	float:left;
 }
 .cv ul{
 	font-size:1.2em;
 	justify-content: space-between;
-	list-style-type: none
+	list-style-type: none;
+	width:67%;
 }
 .cv ul i{
 	width:5px;
@@ -149,6 +150,7 @@ ul li a{
 	margin-right:16px;
 	justify-content: space-between;
 }
+
 @media screen and (max-width: 600px) {
  header{
  	display:flex;

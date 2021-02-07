@@ -187,6 +187,9 @@ ul li a{
   	flex-direction: column;
   	justify-content: center;
   }
+  .card{
+  	justify-content: center;
+  }
   .id{
   	display: flex;
   	flex-direction: column;

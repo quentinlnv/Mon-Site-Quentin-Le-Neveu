@@ -180,7 +180,6 @@ ul li a{
   	display: flex;
   }
   .id{
-  	display: flex;
   	flex-direction: column;
   }
   .id img{

@@ -176,6 +176,9 @@ ul li a{
   	justify-content: center;
   	width:100%;
   }
+  .cv{
+  	display: flex;
+  }
   .id{
   	display: flex;
   	flex-direction: column;

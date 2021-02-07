@@ -11,6 +11,9 @@
 	color:#FFF;
 	border-radius: 25px;
 }
+.card-body p{
+	font-size:1em;
+}
 #btn-card{
 	margin-left: 74px;
 	background-color:#FCA311;

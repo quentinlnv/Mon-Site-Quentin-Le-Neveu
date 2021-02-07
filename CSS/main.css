@@ -177,7 +177,7 @@ ul li a{
   	width:100%;
   }
   .id{
-  	display:flex;
+  	display: flex;
   	flex-direction: column;
   }
   .id img{

@@ -97,13 +97,10 @@ ul li a{
   font-size: 25px;
   color: #FFF;
   display: block;
+  background: #0f192e;
 }
 .sidenav a:hover {
   color: #FCA311;
-}
-.btn-side{
-	border-radius: 2px;
-	border:5px solid;
 }
 input[type=text], select, textarea {
   width: 100%;

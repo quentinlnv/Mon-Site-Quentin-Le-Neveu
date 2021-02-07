@@ -184,6 +184,9 @@ ul li a{
   	justify-content: center;
   	float:none;
   }
+  .id ul{
+  	width:100%;
+  }
   .id ul li p{
   	width:100%;
   	font-size:0.8em;

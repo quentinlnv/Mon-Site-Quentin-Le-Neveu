@@ -84,7 +84,7 @@ else                /* send the submitted data */
     $message=$_REQUEST['message'];
     if (($name=="")||($email=="")||($message==""))
         {
-        echo "Tous les champs sont requis, veuillez remplir <a href=\"\">le formulaire</a> et réessayer.";
+        echo "Tous les champs sont requis, veuillez remplir <a href="contact.html">le formulaire</a> et réessayer.";
         }
     else{        
         $from="From: $name<$email>\r\nReturn-path: $email";

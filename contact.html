@@ -72,7 +72,7 @@ if ($action=="")    /* display the contact form */
     <label for="message">Votre Message</label>
     <textarea id="subject" name="subject" placeholder="Dites-moi tout..." style="height:200px"></textarea>
 
-    <input class="Submit-form" type="submit" value="Envoyer">
+    <input class="Submit-form" type="submit" value="Send email">
 
   </form>
     <?php
@@ -89,7 +89,7 @@ else                /* send the submitted data */
     else{        
         $from="From: $name<$email>\r\nReturn-path: $email";
         $subject="Votre message a été envoyé. Je reviendrai vers vous dès que possible. ";
-        mail("youremail@yoursite.com", $subject, $message, $from);
+        mail("quentin.le_neveu@edu.devinci.fr", $subject, $message, $from);
         echo "Email sent!";
         }
     }  

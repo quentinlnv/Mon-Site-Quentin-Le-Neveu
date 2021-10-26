@@ -188,11 +188,17 @@ ul li a{
   .id ul{
   	width:100%;
   }
-  .id ul li p{
+  .id ul li {
   	width:100%;
   	font-size:0.8em;
   	float:none;
   	text-align:left;
+  }
+  p{
+  	width:100%;
+  	font-size:0.8em;
+  	float:none;
+  	text-align: center;
   }
   .sidenav{
   	display:none;

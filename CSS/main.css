@@ -175,20 +175,15 @@ ul li a{
 		flex-direction:column;
 		margin-left: 10px;
 		justify-content: center;
+		align-items: center;
 		max-width: 100%;
 		overflow-x: hidden;
 		padding: 0;
 }
-  .card-container{
-  	justify-content: center;
-  }
   .card{
   	width:100%;
-  	justify-content: safe center;
   }
-  #card-left #card-middle #card-right{
-  	max-width: 100%;
-  }
+
   .id{
   	display: flex;
   	flex-direction: column;
